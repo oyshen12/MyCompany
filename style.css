@@ -1,0 +1,434 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+body{
+  font-family: 'Open Sans' ,sans-serif;
+}
+header{
+  width: 100%;
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+}
+.headerlogo{
+  text-transform:  uppercase; /*Заглавные буквы*/
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 24px;
+  margin-top: 59px;
+  margin-left: 12%;
+
+}
+nav{
+  margin-top: 58px;
+  margin-left: 29%;
+
+}
+main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.main__welcome{
+  background: black;
+  text-align: center;
+  padding: 210px 0 410px 0;
+}
+.main__welcome p {
+  color: #8c8c8c;
+  font-size: 20px;
+
+}
+.main__welcome h1 {
+  color: #8c8c8c;
+  font-size: 44px;
+
+}
+.welcome{
+  font-weight: lighter;
+}
+.ppl{
+  font-weight:bold;
+  color: #d4d4d4;
+}
+.ppk{
+  color: #6c6c6c;
+  font-weight: lighter;
+  text-align: justify;
+}
+.ppj{
+  font-weight: bold;
+}
+.mycompany{
+  color: #fcac45;
+  font-weight: bold;
+}
+.topnav a{
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+.wrapper{
+  width: 76%;
+  margin: 0 auto;
+}
+.wrapper h1{
+  font-size: 44px;
+}
+.main__about{
+  display: flex;
+  padding: 100px 0 100px 0;
+}
+.abot__right{
+  margin-left: 120px;
+}
+.abot__right h1{
+  display: inline-block;
+  border-bottom: 3px solid #fcac45;
+  padding-bottom: 20px;
+}
+.abot__right p{
+  margin: 30px 0 50px 0;
+}
+.abot__right li{
+  background: url(img/marc.png) 0px no-repeat;
+  padding-left: 25px;
+  margin-top: 10px;
+}
+.mw-100{
+  min-width: 100%;
+}
+.topnav a:hover{
+  border-bottom: 3px solid #fcac45;
+}
+.topnav .icon{
+  display: none;
+}
+.main__clients{
+  text-align: center;
+  background: black;
+  padding: 100px 0 205px 0;
+  color: white;
+}
+.main__clients h1{
+  margin-bottom: 30px;
+}
+.main__clients img{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.main__testi{
+  background: black;
+  color: white;
+  padding: 100px 0 175px  0;
+  text-align: center;
+}
+.tety{
+  margin: 117px 286px 0 286px;
+}
+.main__testi h1{
+  margin-bottom: 32px;
+}
+.dean{
+  margin-top: 52px;
+  color: #b2b2b2;
+}
+.deam{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+.main__testi p{
+  font-size: 18px;
+  font-weight: semibold;
+}
+.mon{
+  font-weight:  100;
+}
+.services__cards h4{
+  font-weight: bold;
+  font-size: 25px;
+}
+.main__work{
+  text-align: center;
+  padding: 100px 0 100px 0;
+}
+.main__work h1{
+  margin-bottom: 30px;
+}
+.main__work p{
+  margin-bottom: 175px;
+  color: #6c6c6c;
+  font-size: 16px;
+}
+.main__work img:hover{
+  opacity: 0.9;
+}
+.main__work img{
+  margin-left: 31px;
+}
+.line1{
+  margin-bottom: 31px;
+}
+.line2{
+  margin-bottom: 31px;
+}
+.our{
+  font-weight: lighter;
+}
+.main__team{
+  background: black;
+  text-align: center;
+  padding: 100px 0 165px 0;
+  color: white;
+}
+.main__team h1{
+  font-size: 44px;
+  padding-bottom: 40px;
+}
+.line{
+  width: 100px;
+  height: 3px;
+  background: #bb8034;
+  position:relative;
+  left: 45.5%;
+  margin-bottom: 85px;
+}
+.photo{
+  background: #d7d7d7;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+.team__cards{
+  display: flex;
+
+}
+.name{
+  font-size:20px;
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+.position{
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+.about_position{
+  font-size: 14px;
+  text-align: justify;
+  text-align-last:center;
+}
+.card{
+  margin: 0 40px;
+}
+.services__cards{
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 20px;
+}
+.main__services h1{
+  text-align: center;
+  padding: 100px 0 30px 0;
+}
+.main__services p{
+  color: #6c6c6c;
+  text-align-last: center;
+  margin-bottom: 100px;
+}
+.services__card h4{
+ margin-top:20px ;
+ margin-bottom:15px ;
+}
+.contact__wrapper{
+  width: 753px;
+  margin: 0 auto;
+  color: #959595;
+}
+.red{
+  color: red;
+}
+.form__inputs{
+  display: flex;
+  margin-top: 100px;
+}
+textarea{
+  width: 100%;
+  height: 163px;
+}
+input{
+  width: 360px;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+input, textarea{
+  border: 1px solid #999999;
+  margin-top: 5px;
+}
+input:first-of-type{
+  margin-right: 23px;
+}
+.button__block{
+  display: flex;
+  justify-content: flex-end;
+}
+input[type=submit] {
+  width: 165px;
+  height: 40px;
+  background: #fcac45;
+  color: white;
+  margin-right: 0;
+  margin-top: 20px;
+}
+.contact__form h1,p{
+  text-align: center;
+}
+.contact__form h1{
+  color: black;
+  font-size: 44px;
+  margin: 100px 0 31px 0;
+}
+.contact__form{
+  padding: 0 0 100px 0;
+}
+form p{
+  text-align: left;
+}
+.ours{
+  background-color: black;
+  display: flex;
+  padding: 32px 0 32px 44%;
+}
+.ours a{
+  margin-left: 1%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1010px){
+
+
+  main .main__welcome{
+    padding: 50px 0 50px 0;
+  }
+  main .main__welcome p{
+    font-size: 14px;
+  }
+  main .main__welcome h1{
+    font-size: 35px;
+  }
+
+.mw-100{
+  max-width: 100%;
+}
+.main__about{
+  flex-direction: column;
+}
+.abot__right{
+  text-align: center;
+  margin-left: 0;
+}
+.abot__right li{
+  text-align: left;
+}
+.abot__right h1{
+  font-size: 25px;
+  margin-top: 10px;
+}
+.team__cards{
+  flex-direction: column;
+}
+
+.services__cards{
+  grid-template-columns: auto;
+}
+.line1 img:not(:first-child) {
+  display: none;
+}
+.line2 img:not(:first-child) {
+  display: none;
+}
+.line3 img:not(:first-child) {
+  display: none;
+}
+
+
+
+
+}
+
+@media screen and (max-width:1100px){
+  nav{
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width:1120px){
+  .topnav a{
+    display: none;
+  }
+  .topnav a.icon{
+    float: right;
+    color: white;
+    margin-top: -17px;
+    display: block;
+    font-size: 25px;
+  }
+  nav{
+    width: 100%;
+  }
+  .topnav.responsive{
+    position: relative;
+    top: 50px;
+    left: -300px;
+  }
+  header .topnav.responsive{
+    height: 340px;
+  }
+  .topnav.responsive a.icon{
+    position: absolute;
+    top: -50px;
+    right: -300px;
+  }
+  .topnav.responsive a{
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
+@media screen and (max-width:1200px){
+  nav{
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width:1250px) {
+.main__work img{
+  margin-left: 10px;
+  width: 200px;
+}
+}
+@media screen and (max-width:1570px) {
+.main__work img{
+  margin-left: 10px;
+  width: 230px;
+}
+}
